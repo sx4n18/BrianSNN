@@ -2,7 +2,7 @@ import numpy as np
 from pylab import *
 import matplotlib.cm as cm
 
-ending = '10000'
+ending = '10000' # Change the suffix here to choose which weight to plot
 chosenCmap = cm.get_cmap('hot_r') #cm.get_cmap('gist_ncar')
 
 readoutnames = []
